@@ -21,5 +21,9 @@ pipeline {
                 }
             }
         }
+		steps {
+                sh './jenkins/scripts/deliver.sh'
+            }
+        }
     }
 }
